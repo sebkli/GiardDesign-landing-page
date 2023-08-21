@@ -1,0 +1,80 @@
+@import '../node_modules/bootstrap/scss/_functions';
+@import '../node_modules/bootstrap/scss/_variables';
+@import '../node_modules/bootstrap/scss/mixins';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@400;500&display=swap');
+
+$custom-theme-colors: (
+  'customWhite': #ffffff,
+  'customGreen': #1b5b31,
+  'customBeige': #dcc1ab,
+  'customBlack': #111111,
+  'customGrey': #f5f0ec,
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+$utilities: (
+  'font-family': (
+    property: font-family,
+    class: customFont,
+    values: Inter Montserrat,
+  ),
+);
+
+:root {
+  --bs-body-font-family: 'Inter', sans-serif !important;
+}
+
+.slider-photo1 {
+  background: url(/assets/small-img/HeroSectionPhoto.jpg);
+  background-size: cover;
+  transform: scaleX(-1);
+}
+.slider-photo2 {
+  background: url(/assets/small-img/About_photo.jpg);
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.slider-controls {
+  transform: scaleX(-1);
+}
+
+@include media-breakpoint-down(lg) {
+  .slider-photo1,
+  .slider-photo2 {
+    height: 100vh;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .slider-controls {
+    width: auto;
+    height: auto;
+  }
+  .slider-right img,
+  .slider-left img {
+    height: auto;
+    width: auto;
+  }
+}
+
+.card {
+  transition: all 0.3s;
+}
+.card:hover {
+  transform: scale(1.15);
+  border: 2px solid;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(360deg, #dcc1ab 0%, #d6b79e00 100%);
+  z-index: 1;
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap';

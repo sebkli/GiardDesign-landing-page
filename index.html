@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>GiardDesign</title>
+  </head>
+  <body>
+    <!--Navigation-->
+    <header class="container-xxl">
+      <nav class="navbar navbar-expand-md">
+        <img
+          class="img-fluid p-3 ps-lg-5 navbar-brand"
+          src="/assets/icons/giarddesign.svg"
+          alt="GiardDesign logo"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main-nav"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end align-self-center"
+          id="main-nav"
+        >
+          <ul class="navbar-nav me-4">
+            <li class="nav-item dropdown px-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Oferta
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Oferta 1</a></li>
+                <li><a class="dropdown-item" href="#">Oferta 2 </a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Oferta 3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">O firmie</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Realizacje</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#">Kontakt</a>
+            </li>
+            <li class="nav-item d-flex px-2 mb-2">
+              <button
+                class="nav-link"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#search-form"
+                aria-controls="#search-form"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <img
+                  class="img-fluid"
+                  width="24"
+                  height="24"
+                  src="assets/icons/search_icon.svg"
+                  alt="szukaj"
+                />
+              </button>
+              <div class="collapse collapse-horizontal" id="search-form">
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="Szukaj"
+                    aria-label="Search"
+                  />
+                  <button
+                    class="btn btn-outline-customGreen rounded-pill"
+                    type="submit"
+                  >
+                    Szukaj
+                  </button>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--Intro -->
+    <section class="container-xxl p-0">
+      <div id="slider" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row g-0">
+              <div class="col-lg-6 bg-customBeige">
+                <h1
+                  class="display-3 p-4 pt-md-5 ps-md-5 ms-md-5 customFont-Montserra fw-medium"
+                >
+                  Nowoczesna aranżacja Twojego ogrodu
+                </h1>
+                <p class="h6 px-4 py-1 px-md-5 ms-md-5 lh-base">
+                  Marka GiardDesign to wieloletnie doświadczenie i wysoka
+                  estetyka realizacji. Oferujemy kompleksowy zakres usług
+                  indywidualnym podejściem do każdego projektu..
+                </p>
+                <div class="d-flex justify-content-center p-5">
+                  <button
+                    type="button"
+                    class="btn btn-customGreen rounded-pill me-3 me-md-4"
+                  >
+                    Skontaktuj się z nami
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-outline-customGreen rounded-pill"
+                  >
+                    Zobacz nasze realizacje
+                    <img
+                      src="assets/icons/arrow_down.svg"
+                      width="16"
+                      height="16"
+                      alt="arrow pointing down"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="slider-photo1 col-lg-6"></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-6 bg-customGrey">
+                <h1
+                  class="display-3 p-4 pt-md-5 ps-md-5 ms-md-5 customFont-Montserra fw-medium"
+                >
+                  Nowoczesna aranżacja Twojego ogrodu
+                </h1>
+                <p class="h6 px-4 py-1 px-md-5 ms-md-5 lh-base">
+                  Marka GiardDesign to wieloletnie doświadczenie i wysoka
+                  estetyka realizacji. Oferujemy kompleksowy zakres usług
+                  indywidualnym podejściem do każdego projektu..
+                </p>
+                <div class="d-flex justify-content-center p-5">
+                  <button
+                    type="button"
+                    class="btn btn-customGreen rounded-pill me-3 me-md-4"
+                  >
+                    Skontaktuj się z nami
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-outline-customGreen rounded-pill"
+                  >
+                    Zobacz nasze realizacje
+                    <img
+                      src="assets/icons/arrow_down.svg"
+                      width="16"
+                      height="16"
+                      alt="arrow pointing down"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="slider-photo2 col-lg-6"></div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-customWhite position-absolute bottom-0 end-0">
+          <button
+            type="button"
+            class="btn slider-prev"
+            data-bs-target="#slider"
+            data-bs-slide="prev"
+          >
+            <img
+              src="assets/icons/arrow_left.svg"
+              width="46"
+              height="46"
+              alt="prev"
+            />
+          </button>
+          <button
+            type="button"
+            class="btn slider-next"
+            data-bs-target="#slider"
+            data-bs-slide="next"
+          >
+            <img
+              src="assets/icons/arrow_right.svg"
+              width="46"
+              height="46"
+              alt="next"
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--Oferta -->
+    <section class="container-xxl p-0 py-md-5 bg-customGrey">
+      <div class="p-5">
+        <h1 class="display-4 p-0 px-md-5 py-md-2 fw-medium">
+          Działamy kompleksowo
+        </h1>
+        <p class="h5 lh-base p-0 px-md-5 py-md-2">
+          Oferujemy kompletną obsługę inwestycji terenów zielonych. Projektujemy
+          nowoczesne ogrody przydomowe oraz rezydencjonalne. Stworzymy dla
+          Ciebie projekt, zwizualizujemy go i wcielimy w życie, a na każdym
+          etapie posłużymy radą i wieloletnim doświadczeniem.
+        </p>
+      </div>
+      <div
+        class="row row-cols-1 row-cols-lg-3 g-3 g-lg-5 align-items-center justify-content-center p-5"
+      >
+        <div class="col">
+          <div class="card">
+            <div class="p-4 pb-3">
+              <img
+                src="assets/icons/card_Icon1.svg"
+                class="img-fluid"
+                alt="..."
+                width="40"
+                height="40"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title h3 customFont-Montserrat px-3 pb-2">
+                Projekty
+              </h5>
+              <p class="card-text h6 fw-ligh px-3 pb-5 lh-l">
+                Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym
+                wykorzystaniem istniejącej przestrzeni..
+              </p>
+              <a
+                class="nav-link p-3 text-customGreen text-decoration-underline"
+                href="#"
+                >Dowiedz się więcej
+                <img
+                  src="assets/icons/card_btn_svg.svg"
+                  width="16"
+                  height="16"
+                  class="img-flui ms-1"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="p-4 pb-3">
+              <img
+                src="assets/icons/card_Icon2.svg"
+                class="img-fluid"
+                alt="..."
+                width="48"
+                height="90"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title h3 customFont-Montserrat px-3 pb-2">
+                Wizualizacje
+              </h5>
+              <p class="card-text h6 fw-ligh px-3 pb-5 lh-l">
+                Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego
+                spaceru animowanego w technologii 3D.
+              </p>
+              <a
+                class="nav-link p-3 text-customGreen text-decoration-underline"
+                href="#"
+                >Dowiedz się więcej
+                <img
+                  src="assets/icons/card_btn_svg.svg"
+                  width="16"
+                  height="16"
+                  class="img-flui ms-1"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="p-4 pb-3">
+              <img
+                src="assets/icons/card_Icon3.svg"
+                class="img-fluid"
+                alt="..."
+                width="40"
+                height="40"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title h3 customFont-Montserrat px-3 pb-2">
+                Realizacje
+              </h5>
+              <p class="card-text h6 fw-ligh px-3 pb-5 lh-l">
+                Zrealizujemy Twoje marzenie przy użyciu najnowszych rozwiązań i
+                zaawansowanych technologii.
+              </p>
+              <a
+                class="nav-link p-3 text-customGreen text-decoration-underline"
+                href="#"
+              >
+                Zobacz nasze realizacje
+                <img
+                  src="assets/icons/card_btn_svg.svg"
+                  width="16"
+                  height="16"
+                  class="img-flui ms-1"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--O firmie -->
+
+    <section class="container-xxl p-0">
+      <div class="row g-0">
+        <div class="col-12 col-lg-6">
+          <img src="assets/small-img/About_photo.jpg" class="w-100 h-100" />
+        </div>
+        <div class="col-12 col-lg-6 bg-customGreen text-customGrey">
+          <div class="py-5 m-0 p-md-5 m-md-5">
+            <h1 class="fs-6 fw-lighter px-5 py-2 pt-md-5">O firmie</h1>
+            <h2 class="display-4 customFont-Montserrat fw-medium px-5">
+              Tworzymy z pasją
+            </h2>
+            <p class="fs-6 lh-base fw-light px-5 py-4">
+              Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą
+              wykwalifikowani projektanci oraz architekci, których zadaniem jest
+              rozpoznanie i realizacja potrzeb każdego Klienta. Nasza
+              specjalizacja to przestrzenie nowoczesne, które charakteryzuje
+              minimalizm, geometria i elegancka prostota. Tworzymy ogrody
+              małoobsługowe, dostosowane do współczesnego trybu życia.
+            </p>
+            <button
+              class="btn btn-outline-customGrey rounded-pill m-5 fs-6 btn-lg"
+              type="button"
+            >
+              Poznaj nas bliżej
+              <img
+                src="assets/icons/about_btn_svg.svg"
+                width="16"
+                height="16"
+                class="img-flui ms-1"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Galeria-->
+    <section class="container-xxl pt-5 bg-customBeige">
+      <h1 class="h6 ms-0 ms-lg-5 px-5 pt-5">Realizacje</h1>
+      <h1 class="display-4 fw-medium fst-italic ms-0 ms-lg-5 px-5 py-3">
+        Nasze projekty
+      </h1>
+      <div class="position-relative">
+        <div class="gallery-container mt-3">
+          <img
+            src="assets/small-img/gallery_1.jpg"
+            alt="..."
+            class="gallery-img"
+            data-bs-toggle="modal"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-1"
+          />
+          <img
+            src="assets/small-img/gallery_2.jpg"
+            alt="..."
+            class="gallery-img"
+            data-bs-toggle="modal"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-2"
+          />
+          <img
+            src="assets/small-img/gallery_3.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-3"
+          />
+          <img
+            src="assets/small-img/gallery_4.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-4"
+          />
+          <img
+            src="assets/small-img/gallery_5.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-5"
+          />
+          <img
+            src="assets/small-img/gallery_6.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-6"
+          />
+          <img
+            src="assets/small-img/gallery_7.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-7"
+          />
+          <img
+            src="assets/small-img/gallery_8.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-8"
+          />
+          <img
+            src="assets/small-img/gallery_9.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-9"
+          />
+        </div>
+        <div class="overlay" id="gallery-overlay"></div>
+      </div>
+      <div
+        class="modal fade"
+        id="gallery-modal"
+        tabindex="-1"
+        aria-labelledby="gallery-modalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="assets/small-img/gallery_1.jpg"
+                class="img-fluid modal-img"
+              />
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-customBeige"
+                data-bs-dismiss="modal"
+              >
+                Zamknij
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="collapse" id="expandedGallery">
+        <div class="gallery-container-collapsed mt-3">
+          <img
+            src="assets/small-img/gallery_1.jpg"
+            alt="..."
+            class="gallery-img"
+            data-bs-toggle="modal"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-1"
+          />
+          <img
+            src="assets/small-img/gallery_2.jpg"
+            alt="..."
+            class="gallery-img"
+            data-bs-toggle="modal"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-2"
+          />
+          <img
+            src="assets/small-img/gallery_3.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-3"
+          />
+          <img
+            src="assets/small-img/gallery_4.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-4"
+          />
+          <img
+            src="assets/small-img/gallery_5.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-5"
+          />
+          <img
+            src="assets/small-img/gallery_6.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-6"
+          />
+          <img
+            src="assets/small-img/gallery_7.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-7"
+          />
+          <img
+            src="assets/small-img/gallery_8.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-8"
+          />
+          <img
+            src="assets/small-img/gallery_9.jpg"
+            alt="..."
+            data-bs-toggle="modal"
+            class="gallery-img"
+            data-bs-target="#gallery-modal"
+            data-bs-whatever="Gallery-9"
+          />
+        </div>
+      </div>
+      <div class="text-center pb-3">
+        <button
+          class="btn btn-outline-customBlack rounded-pill"
+          id="gallery-btn"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#expandedGallery"
+          aria-expanded="false"
+        >
+          Rozwiń
+          <img
+            src="assets/icons/expand_icon.svg "
+            width="16"
+            height="16"
+            alt="Rozwiń"
+            class="img-fluid"
+          />
+        </button>
+      </div>
+    </section>
+    <!--Instagram kontakt-->
+
+    <section
+      class="container-xxl bg-customGrey d-flex justify-content-center align-items-center px-5 py-3"
+    >
+      <div
+        class="bg-customGreen m-5 p-5 text-customGrey d-grid d-lg-flex align-items-center"
+      >
+        <div class="m-0 p-3 m-lg-5 px-lg-4 py-lg-4">
+          <h1 class="h1 fw-light customFont-Montserrat">
+            Zostańmy w kontakcie! Znajdziesz nas na
+            <span class="fw-medium customFont-Inter fst-italic"
+              >Instagramie</span
+            >.
+          </h1>
+        </div>
+        <div class="d-grid d-lg-block me-md-5 pe-md-2">
+          <p class="fw-light mb-4 ps-3 mb-lg-3 p-lg-0">
+            Śledź nasze najnowsze realizacje!
+          </p>
+          <a class="btn btn-customGrey rounded-pill text-customGreen" href="#"
+            >Instagram</a
+          >
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer
+      class="container-xxl bg-customBlack text-customGrey px-0 py-5 p-lg-5"
+    >
+      <div class="px-md-5 mx-md-5 mt-md-3">
+        <div class="px-5 mx-0 p-lg-0">
+          <div class="d-grid d-lg-flex justify-content-between pt-3">
+            <img
+              src="assets/icons/logo_white.svg"
+              class="img-fluid"
+              width="114"
+              height="19"
+            />
+            <div class="d-grid d-lg-flex mt-3 mt-lg-0">
+              <div class="h6 pt-lg-3">
+                Daj znać, co możemy dla Ciebie zrobić!
+              </div>
+              <button
+                class="btn btn-customGreen rounded-pill mt-3 mt-lg-0 ms-3"
+              >
+                Skontaktuj się z nami
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="d-lg-flex justify-content-between ps-3 ps-lg-0 pt-5 mt-5 border-top"
+          >
+            <ul
+              class="list-group list-group-horizontal-lg list-unstyled list-group-item-customBlack"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="list-group-item text-customGreytext-customGrey"
+                  >Kontakt</a
+                >
+              </li>
+              <li>
+                <a href="#" class="list-group-item nav-link text-customGrey"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a href="#" class="list-group-item nav-link text-customGrey"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a href="#" class="list-group-item nav-link text-customGrey"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+            <div class="pt-2">
+              <span class="h6 px-3 px-lg-5">000-000-000 </span
+              ><span class="h6 mx-2"> giarddesign@kontakt.pl</span>
+            </div>
+          </div>
+        </div>
+        <div class="d-grid d-lg-flex justify-content-between ps-3 mt-5 pt-5">
+          <div class="h6 pt-2 ps-3 ps-lg-0">Prawa zastrzeżone © 2022</div>
+          <div class="d-flex">
+            <div class="h6 me-3 pt-2 ps-3 ps-lg-0">made by</div>
+            <img
+              src="assets/icons/adrespcet_logo.svg"
+              alt="adrespcet logo"
+              class="img-fluid"
+              width="113"
+              height="25"
+            />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+  </body>
+</html>
